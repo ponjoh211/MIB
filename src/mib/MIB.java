@@ -11,7 +11,7 @@ public class MIB
     
     public static void main(String[] args) throws InfException {
         try {
-            idb = new InfDB ("middb", "3306", "mibdba", "mibkey");
+            idb = new InfDB ("mibdb", "3306", "mibdba", "mibkey");
         } catch (InfException ex) {
             Logger.getLogger(MIB.class.getName()).log(Level.SEVERE, null, ex);
         }
